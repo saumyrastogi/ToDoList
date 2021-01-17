@@ -1,0 +1,72 @@
+
+h1,h2{
+  color: #f2aa76;
+}
+.changeh1col{
+  color: tomato;
+}
+div{
+  font-size: 30px;
+}
+button{
+  width: 50px;
+}
+.timedisplay{
+  position: relative;
+  right: 640px;
+  bottom: 40px;
+}
+.newtaskbtn{
+  border: none;
+  background-color: tomato;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  height: 35px;
+}
+input{
+  height: 30px;
+  width: 300px;
+  border: 2px solid tomato ;
+  border-radius: 4px;
+}
+img{
+  height: 25px;
+  width: 25px;
+  padding: 0 7px 0 7px;
+}
+.todocontainer{
+  padding-top: 50px;
+}
+.taskpara{
+  display:table-cell;
+  position: absolute;
+  left: 350px
+
+}
+.divleft{
+  display: table-cell;
+  position: relative;
+  left: 1050px;
+  top: 30px;
+}
+.cuttext{
+  text-decoration: line-through;
+}
+body{
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif ;
+
+  background-image: url('todonewback.jpg');
+}
+.todotask{
+  padding-bottom: 30px;
+}
+.animatebtn{
+  opacity: 0.4;
+}
